@@ -1,0 +1,52 @@
+.destinationWrapper{
+    flex-direction: column;
+    gap: 50px;
+
+}
+.DestinationCards{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 20px;
+
+}
+.DestinationCards::-webkit-scrollbar{
+    height: 5px;
+}
+.DestinationCards::-webkit-scrollbar-thumb{
+    background-color: #1e1e1e;
+}
+
+.DestinationCards .DestinationCard{
+   min-width: 350px;
+   height: 500px;
+   pad: 20px 0;
+   position: relative;
+}
+
+.DestinationCards .DestinationCard .Content{
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+
+    transition: .6s;
+}
+.DestinationCards .DestinationCard:hover .Content{
+bottom: 30px;
+}
+
+.DestinationCards .DestinationCard .Content h2{
+    color: #fff;
+}
+
+.DestinationCards .DestinationCard img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
