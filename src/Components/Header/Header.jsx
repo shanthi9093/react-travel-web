@@ -7,6 +7,7 @@ function Header() {
   const handleSearch = (e) => {
     e.preventDefault();
     if (!location.trim()) return;
+    
 
     const url = `https://www.google.com/maps/search/${encodeURIComponent(location)}`;
     window.location.href = url; // opens in same tab
