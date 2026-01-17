@@ -50,9 +50,16 @@ function Footer () {
             </div>
 
             </div>
+
+            {/* Copyright Bar */}
+      <div className={footerCSS.copyright_bar}>
+        <p>Tours And Travels in TRAVELGO</p>
+        <p>© 2026 Shanthi. All rights reserved.</p>
+      </div>
             
 
         </footer>
+        
     )
 }
 export default Footer
