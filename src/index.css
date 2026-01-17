@@ -32,7 +32,7 @@ button:hover{
 .Header-Container{
     min-height: 100vh;
     width: 100%;
-    background: url(C:\Users\kizan\react-travel-web\src\assets\header-bg.jpg);
+   background-image: url("/images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
